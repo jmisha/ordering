@@ -1,0 +1,10 @@
+README.md
+setup.py
+ordering/__init__.py
+ordering/recursion.py
+ordering/sorting.py
+ordering.egg-info/PKG-INFO
+ordering.egg-info/SOURCES.txt
+ordering.egg-info/dependency_links.txt
+ordering.egg-info/requires.txt
+ordering.egg-info/top_level.txt

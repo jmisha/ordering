@@ -1,0 +1,19 @@
+# package
+This library contains the recursion and sorting modules which perform certain recursion and sort functions.
+
+recursion:
+sum_array() - returns the sum of a given list input 
+fibonacci() - returns (integer input)th term of the fibonacci
+factorial() - returns (integer input)!
+reverse()   - returns a given list input in reverse order
+
+sort:
+bubble_sort() - returns a given list input in ascending order using bubble sort algorithm
+merge_sort()  - returns a given list input in ascending order using merge sort algorithm
+quick_sort()  - returns a given list input in ascending order using quick sort algorithm
+
+## installing this package from GitHub
+'pip install git+https://github.com/jmisha/package.git'
+
+## updating this package from GitHub
+'pip install --upgrade git+https://github.com/jmisha/package.git'
