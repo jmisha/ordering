@@ -90,12 +90,12 @@ def reverse(word):
         array: in reverse order
 
     Examples:
-        >>> reverse([8, 3, 2, 7, 4])
-        [4, 7, 2, 3, 8]
-        >>> reverse(['bob', 'jen', 'ann', 'reg', 'kip'])
-        ['kip', 'reg', 'ann', 'jen', 'bob']
+        >>> reverse('8, 3, 2, 7, 4')
+        '4 ,7 ,2 ,3 ,8'
+        >>> reverse('bob, jen, ann, reg and kip')
+        'pik dna ger ,nna ,nej ,bob'
     '''
 
-    if len(word) <= 0:
+    if len(word) == 0:
         return word
-    return [word[-1]] + reverse(word[:-1])
+    return reverse(word[1:]) + word[0]
